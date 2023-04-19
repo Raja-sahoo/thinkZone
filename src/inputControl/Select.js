@@ -1,7 +1,7 @@
 import React from "react";
  const Select = ({lbl,tagName, name, value, errMsg, isShowErr, fnChange, options, values, names })=>{ 
     return <div className="row mb-3">
-        <div className="col-sm-4 text-end">
+        <div className="col-sm-4">
         <p className="label m-space"><b>{lbl}</b></p>
             </div>
         
