@@ -7,7 +7,7 @@ import React from "react";
         
         <div className="col-sm-4">
             <select onChange={(e)=>fnChange(e)} name={name} className="form-control">
-                <option value=''>please select classes</option>
+                <option value=''>please select class</option>
                 {
                     options.map((v,i)=>{
                         const isSelect = values[i] === value
